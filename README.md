@@ -23,12 +23,15 @@ The dataset used in this project is the Titanic dataset, which contains informat
 
 🔗 **Dataset Link:** https://www.kaggle.com/c/titanic/data
 
-The dataset is stored locally in CSV format:
+The dataset was accessed directly using the Seaborn library in Python:
 
 ```python
-import pandas as pd
-df = pd.read_csv('data/train.csv')
+import seaborn as sns
+df = sns.load_dataset('titanic')
 ```
+
+For reference, the dataset is also available in CSV format on Kaggle.
+
 
 ---
 
